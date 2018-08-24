@@ -326,10 +326,10 @@ header {
 canvas {
   overflow: hidden;
   position: relative;
-  background-image: url('../img/tuptain_logo.png');
+  background-image: url('../img/rasterized-logo1.png');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 30vw;
+  background-size: 50vw;
   height: 100%;
   width: 100%;
 }
