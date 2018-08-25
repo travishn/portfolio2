@@ -449,10 +449,14 @@ canvas .banner_bottom_btn i:hover {
   background-color: #222222;
   color: #61dafb;
 }
-.reactnative {
-  background-color: #10a3d4;
-  color: #FFF;
+.expressjs {
+  background-color: #51A03F;
 }
+
+.expressjs i {
+  margin-left: 10px;
+}
+
 .javascript,
 .xperience-design {
   border-radius: 15px;
@@ -464,12 +468,13 @@ canvas .banner_bottom_btn i:hover {
 .ruby i {
   margin-left: 30px;
 }
-.aws {
-  color: #febe10;
-  background-color: #4e4e4e;
+.nodejs {
+  color: #51A03F;
+  background-color: whitesmoke;
+  font-size: 120px;
 }
-.aws i {
-  margin-left: 16px;
+.nodejs i {
+  margin-left: 35px;
   margin-top: 12px;
 }
 /* ==========================================================================
