@@ -544,9 +544,9 @@ canvas .banner_bottom_btn i:hover {
 #features .box-item:hover .icon i {
   color: #ffffff;
 }
-#features .show-box {
+/* #features .show-box {
   padding: 80px 0px 0px;
-}
+} */
 #features .show-box img {
   width: 100%;
 }
