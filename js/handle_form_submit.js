@@ -68,6 +68,11 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
     }
     */
 
+    if (grecaptcha.getResponse() === '') {
+        alert('Please recheck the captcha');
+        return false;
+    }
+
     if (!validEmail(data.email)) {   // if email is not valid show error
         document.getElementById('email-invalid').style.display = 'block';
         return false;
