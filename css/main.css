@@ -457,6 +457,11 @@ canvas .banner_bottom_btn i:hover {
   margin-left: 10px;
 }
 
+.express-icon {
+  height: 75%;
+  width: 75%;
+}
+
 .javascript,
 .xperience-design {
   border-radius: 15px;
