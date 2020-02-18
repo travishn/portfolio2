@@ -112,7 +112,7 @@ a:not([href]):not([tabindex]):hover {
 }
 .section-header {
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
   text-align: center;
 }
 .section-header .section-title {
@@ -127,10 +127,11 @@ a:not([href]):not([tabindex]):hover {
   color: #4676fa;
 }
 .section-header .section-subtitle {
-  margin-top: 15px;
   color: #333;
   font-size: 14px;
   font-weight: 400;
+  margin: 24px auto;
+  max-width: 850px;
 }
 .section-header .lines {
   margin: auto;
@@ -378,6 +379,9 @@ canvas .banner_bottom_btn i:hover {
   position: relative;
   background: #f2f2f2;
 }
+.bitmoji {
+  margin: 20px 0;
+}
 .item-boxes {
   text-align: center;
   padding: 15px;
@@ -410,10 +414,10 @@ canvas .banner_bottom_btn i:hover {
   font-weight: 600;
   margin-bottom: 10px;
 }
-.item-boxes:hover {
+/* .item-boxes:hover {
   background: #fff;
   box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
-}
+} */
 #expertise {
   position: relative;
   background: #f2f2f2;
@@ -461,9 +465,7 @@ canvas .banner_bottom_btn i:hover {
   height: 75%;
   width: 75%;
 }
-
-.javascript,
-.xperience-design {
+.javascript {
   border-radius: 15px;
   margin-bottom: 15px;
 }
@@ -481,6 +483,9 @@ canvas .banner_bottom_btn i:hover {
 .nodejs i {
   margin-left: 35px;
   margin-top: 12px;
+}
+.graphql {
+  background-color: #161D26;
 }
 /* ==========================================================================
    Features Section Style
@@ -543,14 +548,11 @@ canvas .banner_bottom_btn i:hover {
   font-size: 14px;
   line-height: 26px;
 }
-#features .box-item:hover .icon {
+/* #features .box-item:hover .icon {
   background: #4676fa;
 }
 #features .box-item:hover .icon i {
   color: #ffffff;
-}
-/* #features .show-box {
-  padding: 80px 0px 0px;
 } */
 #features .show-box img {
   width: 100%;
@@ -763,42 +765,7 @@ canvas .banner_bottom_btn i:hover {
   -webkit-transform: translateY(0px);
   transform: translateY(0px);
 }
-/* ==========================================================================
-   Video promo Style
-   ========================================================================== */
-.video-promo {
-  background: url(../img/bg_2.jpg) fixed;
-  background-position: cover;
-  position: relative;
-}
-.video-promo .video-promo-content {
-  color: #fff;
-}
-.video-promo .video-promo-content h2 {
-  color: #fff;
-  font-size: 30px;
-  text-transform: uppercase;
-}
-.video-promo .video-promo-content p {
-  margin-bottom: 30px;
-}
-.video-promo .video-promo-content .video-popup {
-  min-width: 120px;
-  border: 2px solid #fff;
-  border-radius: 10px;
-  padding: 20px;
-  color: #fff;
-  display: inline-block;
-  font-size: 38px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-.video-promo .video-promo-content .video-popup:hover {
-  background: #4676fa;
-  border-color: #4676fa;
-  color: #fff;
-}
+
 .overlay {
   position: absolute;
   width: 100%;
@@ -808,86 +775,7 @@ canvas .banner_bottom_btn i:hover {
   background: #4676fa;
   filter: alpha(opacity=70);
 }
-/* ==========================================================================
-    Pricing Table
-    ========================================================================== */
-.pricing-table {
-  padding: 20px 20px 40px 20px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  border: transparent;
-  background-color: #FFFFFF;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-}
-.pricing-table:hover {
-  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
-}
-.pricing-table .icon {
-  font-size: 26px;
-  color: #4676fa;
-  border: 1px solid #4676fa;
-  border-radius: 4px;
-  width: 64px;
-  height: 64px;
-  text-align: center;
-  line-height: 64px;
-  margin: 30px auto;
-}
-.pricing-table .pricing-details h2 {
-  font-size: 22px;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 10px;
-}
-.pricing-table .pricing-details span {
-  display: inline-block;
-  font-size: 28px;
-  font-weight: 400;
-  color: #4676fa;
-  margin-bottom: 20px;
-}
-.pricing-table .pricing-details ul {
-  margin-bottom: 35px;
-}
-.pricing-table .pricing-details ul li {
-  padding: 10px;
-  font-size: 15px;
-  border-bottom: 1px solid #eee;
-}
-.table-left {
-  margin-top: 20px;
-}
-/* ==========================================================================
-   Counter Section Style
-   ========================================================================== */
-.counters {
-  background: url(../img/bg1.jpg) fixed;
-  position: relative;
-}
-.counters .facts-item {
-  text-align: center;
-  color: #fff;
-}
-.counters .facts-item .icon {
-  margin-bottom: 20px;
-}
-.counters .facts-item .icon i {
-  font-size: 50px;
-  color: #fff;
-}
-.counters .facts-item .fact-count h3 {
-  font-size: 35px;
-  color: #fff;
-  margin-bottom: 15px;
-}
-.counters .facts-item .fact-count h4 {
-  font-size: 20px;
-  color: #fff;
-}
+
 /* ==========================================================================
    Testimonial Section Style
    ========================================================================== */
@@ -942,83 +830,17 @@ canvas .banner_bottom_btn i:hover {
 .btn i {
   margin-right: 5px;
 }
-/* ==========================================================================
-   Blog 
-   ========================================================================== */
-#blog .blog-item-wrapper {
-  background: #fff;
-  border-radius: 0px;
-  margin-bottom: 30px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-  -webkit-transition: transform 0.2s linear, -webkit-box-shadow 0.2s linear;
-  -moz-transition: transform 0.2s linear, -moz-box-shadow 0.2s linear;
-  transition: transform 0.2s linear, box-shadow 0.2s linear;
+
+.view-btn {
+  min-width: 248px;
 }
-#blog .blog-item-wrapper:hover {
-  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+
+@media (min-width: 1024px) {
+  .view-btn+.view-btn {
+    margin-left: 12px;
+  }
 }
-#blog .blog-item-wrapper:hover .blog-item-img:before {
-  opacity: 1;
-  height: 100%;
-  width: 100%;
-}
-#blog .blog-item-img {
-  position: relative;
-}
-#blog .blog-item-img img {
-  width: 100%;
-}
-#blog .blog-item-img:before {
-  width: 50%;
-  height: 50%;
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(70, 118, 250, 0.7);
-  opacity: 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-#blog .blog-item-text {
-  border: 1px solid #f1f1f1;
-  padding: 20px;
-}
-#blog .blog-item-text .meta-tags {
-  margin-bottom: 10px;
-}
-#blog .blog-item-text .meta-tags span {
-  color: #999;
-  margin-right: 10px;
-}
-#blog .blog-item-text .meta-tags span i {
-  margin-right: 5px;
-}
-#blog .blog-item-text .meta-tags span a {
-  color: #999;
-}
-#blog .blog-item-text .meta-tags span a:hover {
-  color: #4676fa;
-}
-#blog .blog-item-text h3 {
-  line-height: 26px;
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-#blog .blog-item-text h3 a {
-  color: #333;
-}
-#blog .blog-item-text h3 a:hover {
-  color: #4676fa;
-}
-#blog .blog-item-text p {
-  line-height: 25px;
-  margin-bottom: 20px;
-}
+
 /* ==========================================================================
     Contact Us
     ========================================================================== */

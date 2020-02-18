@@ -7,11 +7,9 @@
     <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Grayrids">
-    <title>Travis Nguyen - Software Developer, Frontend Engineer, UX Designer</title>
+    <title>Travis Nguyen - Software Developer</title>
     <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
     <link rel="stylesheet" href="fonts/font-mfizz.css">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/line-icons.css">
@@ -23,6 +21,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
+  
   <body>
       <div class="menu-wrap">
         <nav class="menu navbar">
@@ -40,9 +39,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#recommendations">Recommendations</a>
-              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
@@ -53,20 +49,15 @@
       </div>
     <!-- Header Section Start -->
       <div class="fixed-top">
-          <div class="container">
-            <div class="logo-menu">
-              <a href="#welcome" class="logo"></a>
-              <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
-            </div>
+        <div class="container">
+          <div class="logo-menu">
+            <a href="#welcome" class="logo"></a>
+            <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>
           </div>
+        </div>
       </div>
       <header id="welcome">
-        <canvas id="canvas">
-        </canvas>
-        <div class="hero-box">
-          <!-- <a href="#" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <i class="lnr lnr-download"></i> Download</a> -->
-        </div>
+        <canvas id="canvas" />
       </header>
     <!-- Header Section End -->
 
@@ -74,13 +65,15 @@
     <section id="technology" class="section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">A Developer for
-          <span><script>document.write(new Date().getFullYear());</script></span>
-</h2>
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+            A Developer for <span><script>document.write(new Date().getFullYear());</script></span>
+          </h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">My experience includes a wide range of technologies across the full stack.
-                                                                                                  Whether you're looking for a full stack developer, frontend enthusiast, or UX designer, I'm equipped with the tools to get the job done.
-                                                                                                  Don't see your stack listed here? No worries - I enjoy learning new frameworks.</p>
+          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+            My experience includes a wide range of technologies across the full stack.
+            Whether you're looking for a full stack developer or a frontend enthusiast, I'm equipped with the tools to get the job done.
+            Don't see your stack listed here? No worries - I enjoy learning new frameworks.
+          </p>
         </div>
         <div class="row">
           <div class="col-md-4 col-sm-6">
@@ -124,14 +117,16 @@
                 <i class="icon-nodejs"></i>
               </div>
               <h4>Node</h4>
-              <p>I enjoy using node when it comes to developing apps that make heavy use of the ability to run JavaScript on both the client side and server side.</p>
+              <p>I enjoy using node when it comes to developing apps that make use of the ability to run JavaScript outside the context of a browser.</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
-              <img src="img/expertise/xperience_design.png" class="xperience-design"/>
-              <h4>Experience Design</h4>
-              <p>I recently discovered Adobe Xd and have been playing around with this new tool to create beautiful, interactive wireframes.</p>
+              <div class="expertise-icon graphql">
+                <img src="img/expertise/graphql.png" class="graphql" />
+              </div>
+              <h4>GraphQL</h4>
+              <p>I integrate GraphQL with applications when strong typing and the ability to grab only required data from a single endpoint is desired.</p>
             </div>
           </div>
         </div>
@@ -139,6 +134,7 @@
     </section>
     <!-- Expertise Section End -->
 
+    <!-- Icon Section Start -->
     <div class="row icon-holder">
       <div class="col-md-2 col-sm-4 col-xs-6 small-icons">
         <i class="icon-html5 expertise-icon-s"></i>
@@ -159,6 +155,7 @@
         <i class="icon-npm expertise-icon-s"></i>
       </div>
     </div>
+    <!-- Icon Section End -->
 
     <!-- Features Section Start -->
     <section id="features" class="section" data-stellar-background-ratio="0.2">
@@ -166,8 +163,7 @@
         <div class="section-header">
           <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">About <span>Me</span></h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">As a healthcare provider turned software developer, I am passionate about using code as a medium to help make a difference
-          and create an impact on our communities. Growing up, I've always had a fascination with computers and an affinity for building things. With my experience in creating dynamic web applications, I seek to create meaningful products
+          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">As a healthcare provider turned software developer, I am passionate about using code as a medium to create an impact on our communities. Growing up, I've always had a fascination with computers and an affinity for building things. With my experience in creating dynamic web applications, I seek to create meaningful products
           with progamming as my outlet for problem solving and creative expression.</p>
         </div>
         <div class="row">
@@ -188,7 +184,7 @@
                 </span>
                 <div class="text">
                   <h4>Markets</h4>
-                  <p>I've recently been following the eSports and Crypto industries as I believe these two fields are rapidly revolutionizing.</p>
+                  <p>I've recently been following the eSports industry as I believe the field is rapidly revolutionizing.</p>
                 </div>
               </div>
               <div class="box-item left">
@@ -202,7 +198,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="bitmoji col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <div class="show-box wow fadeInDown animated" data-wow-offset="10">
               <img src="./img/bitmoji.png" alt="">
             </div>
@@ -214,8 +210,8 @@
                   <i class="lnr lnr-screen"></i>
                 </span>
                 <div class="text">
-                  <h4>Web Design</h4>
-                  <p>I love building wow moments and developing beautiful, intuitive applications.</p>
+                  <h4>Web Applications</h4>
+                  <p>I love building wow moments and developing beautiful, intuitive web applications.</p>
                 </div>
               </div>
               <div class="box-item right">
@@ -232,8 +228,8 @@
                   <i class="lnr lnr-pencil"></i>
                 </span>
                 <div class="text">
-                  <h4>Graphics</h4>
-                  <p>I am exploring Adobe Photoshop and Illustrator to learn how to make logos and web graphics.</p>
+                  <h4>Hobbies</h4>
+                  <p>I am a big gaming enthusiast and enjoy collecting physical game copies for my consoles.</p>
                 </div>
               </div>
             </div>
@@ -244,38 +240,15 @@
     <!-- Features Section End -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="section">
-      <!-- Container Starts -->
+    <!-- <section id="portfolio" class="section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Design <span>Portfolio</span></h2>
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Project <span>Portfolio</span></h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
           <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">I've built a variety of applications, working from design through production to deployment to the Internet. These are a few of the projects I've built and contributed to.</p>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <!-- Portfolio Controller/Buttons -->
-            <div class="controls text-center wow fadeInUp" data-wow-delay=".6s">
-              <!-- Used for project filters -->
-              <!-- <a class="control mixitup-control-active btn btn-common" data-filter="all">
-                All
-              </a>
-              <a class="control btn btn-common" data-filter=".ecommerce">
-                E Commerce
-              </a>
-              <a class="control btn btn-common" data-filter=".wordpress">
-                WordPress
-              </a>
-              <a class="control btn btn-common" data-filter=".ios">
-                iOS
-              </a>
-              <a class="control btn btn-common" data-filter=".personal">
-                Personal
-              </a> -->
-            </div>
-            <!-- Portfolio Controller/Buttons Ends-->
-
-            <!-- Portfolio Recent Projects -->
             <div id="portfolio" class="row wow fadeInUp" data-wow-delay="0.8s">
               <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix ios personal">
                 <div class="portfolio-item">
@@ -308,112 +281,12 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix ecommerce">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="" target="blank">
-                      <img src='' alt='' />
-                      <i class="lnr lnr-link item-icon"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix wordpress">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="" target="blank">
-                      <img src='' alt='' />
-                      <i class="lnr lnr-link item-icon"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix ecommerce wordpress">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="" target="blank">
-                      <img src='' alt='' />
-                      <i class="lnr lnr-link item-icon"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix ecommerce">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="" target="blank">
-                      <img src='' alt='' />
-                      <i class="lnr lnr-link item-icon"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="" target="blank">
-                      <img src='' alt='' />
-                      <i class="lnr lnr-link item-icon"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix wordpress personal">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="" target="blank">
-                      <img src='' alt='' />
-                      <i class="lnr lnr-link item-icon"></i>
-                    </a>
-                  </div>
-                </div> -->
-              </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Container Ends -->
-    </section>
+    </section> -->
     <!-- Portfolio Section Ends -->
-
-    <!-- testimonial Section Start -->
-    <!-- <div id="recommendations" class="section">
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-md-10 wow fadeInRight" data-wow-delay="0.2s">
-            <div class="touch-slider owl-carousel owl-theme">
-              <div class="testimonial-item">
-                <img src="img/testimonial/bob_shupe.jpg" alt="Client Testimonoal" />
-                <div class="testimonial-text">
-                  <p>Some testimonial by some company</p>
-                  <h3>Author of testimonial</h3>
-                  <span>Company name</span>
-                </div>
-              </div>
-              <div class="testimonial-item">
-                <img src="img/testimonial/brenda_chohrach.jpg" alt="Client Testimonoal" />
-                <div class="testimonial-text">
-                  <p>Some testimonial by some company</p>
-                  <h3>Author of testimonial</h3>
-                  <span>Company name</span>
-                </div>
-              </div>
-              <div class="testimonial-item">
-                <img src="img/testimonial/bobby_dappen.jpg" alt="Client Testimonoal" />
-                <div class="testimonial-text">
-                  <p>Some testimonial by some company</p>
-                  <h3>Author of testimonial</h3>
-                  <span>Company name</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- testimonial Section end -->
-    </div>
-    <!-- testimonial Section end -->
 
     <!-- Download Section Start -->
     <section id="download" class="section">
@@ -424,8 +297,8 @@
         <div class="row">
           <div class="col-md-12">
             <div class="download-area text-center wow fadeInUp" data-wow-delay="0.3s">
-                <a href="https://github.com/travishn" target="blank" class="btn btn-border"><i class="fa fa-github"></i>View Github Profile</a>
-                <a href="./img/travis_cv.pdf" target="blank" class="btn btn-border"><i class="fa fa-link" style="color:#FFF;"></i>Download My Resume</a>
+              <a href="https://github.com/travishn" target="blank" class="btn btn-border view-btn"><i class="fa fa-github"></i>View Github Profile</a>
+              <a href="./img/travis_cv.pdf" target="blank" class="btn btn-border view-btn"><i class="fa fa-link" style="color:#FFF;"></i>Download My Resume</a>
             </div>
           </div>
         </div>
@@ -522,7 +395,6 @@
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/jquery.nav.js"></script>
     <script src="js/smooth-scroll.js"></script>
-    <!-- <script src="js/smooth-on-scroll.js"></script> -->
     <script src="js/wow.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/jquery.vide.js"></script>
